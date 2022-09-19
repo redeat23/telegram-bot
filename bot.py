@@ -8,7 +8,6 @@ from telegram.ext.dispatcher import Dispatcher
 from telegram.update import Update
 from telegram.ext.callbackcontext import CallbackContext
 from telegram.bot import Bot
-
 updater = Updater('5563801027:AAENFimrw-wQvGAyYp-8xY4v72pRStu6Fx4',
                   use_context=True)
 dispatcher: Dispatcher = updater.dispatcher
